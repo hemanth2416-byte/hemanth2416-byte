@@ -1,0 +1,19 @@
+{
+  "game": 1,
+  "board": [
+    "",
+    "",
+    "",
+    "",
+    "O",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "moves": [],
+  "leaderboard": {},
+  "asked": [],
+  "bot_line": "Center's mine. Your turn. I'll wait for silence before I answer.",
+  "move_no": 1
+}

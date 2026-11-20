@@ -1,0 +1,32 @@
+{
+  "voice": {
+    "question": "Has he shipped real-time voice?",
+    "answer": "Yes. He built Hireanex's real-time voice engine: streaming speech-to-text, LLM reasoning and streaming text-to-speech, with voice activity detection and barge-in (interruption) handling. It is live with real users and pilot customers.",
+    "evidence": "Hireanex · real-time voice engine · hireanex.com"
+  },
+  "evidence": {
+    "question": "How are AI scores made trustworthy?",
+    "answer": "Every score Hireanex produces is tied to quotes from the interview transcript. The LLM evaluation layer has to show its evidence, so each hiring decision is explainable and auditable.",
+    "evidence": "Hireanex · LLM evaluation layer"
+  },
+  "models": {
+    "question": "Does he fine-tune models?",
+    "answer": "Yes. He fine-tunes open-source models with LoRA on GPU infrastructure (PyTorch, Hugging Face, CUDA) and serves them with vLLM for faster, cheaper inference.",
+    "evidence": "Hireanex · model training & serving"
+  },
+  "infra": {
+    "question": "What's under the AI: infra?",
+    "answer": "A Node/Fastify + PostgreSQL backend with REST and WebSocket APIs, BullMQ queues with idempotent workers (audio -> transcript -> evidence -> scores), all running on AWS with Docker, Kubernetes and Terraform, plus CI/CD, tests and observability. Before Hireanex he spent three years at Zingaro AI moving services to Kubernetes across 5+ environments and cutting cloud costs by 15%+.",
+    "evidence": "Hireanex platform · Zingaro AI 2019-2022"
+  },
+  "fde": {
+    "question": "What does forward deployed mean for him?",
+    "answer": "He works directly with Hireanex's pilot customers: gathering requirements, integrating the platform into their hiring workflows, and turning their feedback into shipped features within days.",
+    "evidence": "Hireanex · pilot customers"
+  },
+  "workflow": {
+    "question": "How does he use AI to build?",
+    "answer": "AI-native. Claude Code, Codex and MCP agents act as his engineering team. He owns the architecture, writes the specs and reviews every change. Software engineer first: AI is how he builds, not a substitute for engineering.",
+    "evidence": "Hireanex · engineering workflow"
+  }
+}
